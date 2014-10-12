@@ -11,6 +11,7 @@ namespace Textures
 	{
 		GUI_SPRITESHEET,
 		GUI_BACKGROUND,
+		GUI_BUTTON,
 		GUI_LOGO
 	};
 }
@@ -19,7 +20,7 @@ namespace Fonts
 {
 	enum ID
 	{
-		ANIMATED
+		MENU_CAROLINGIA
 	};
 }
 

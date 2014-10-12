@@ -1,8 +1,10 @@
 #include "source\Entity.hpp"
-
+///////////////////////////////////////////////////
+/// \brief - Entity - This class sets the default position of every element in the world.
+///////////////////////////////////////////////////
 Entity::Entity()
 	: mPosition{ 0.f, 0.f }
-	, mScale{ 0.f, 0.f }
+	, mScale{ 1.f, 1.f }
 	, mRotation{ 0.f }
 	, mOrigin{ 0.f, 0.f }
 {

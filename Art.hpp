@@ -11,7 +11,7 @@ public:
 	Art(const sf::Texture&);
 	
 	virtual void render(sf::RenderWindow&) = 0;
-	const sf::Sprite&	getSprite() const;
+	sf::Sprite&	getSprite();
 
 private:
 	sf::Sprite		mSprite;

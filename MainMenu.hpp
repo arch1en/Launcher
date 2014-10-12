@@ -3,6 +3,10 @@
 #include <SFML/Graphics.hpp>
 #include "ContentManager.hpp"
 #include "Background.hpp"
+#include "Logo.hpp"
+#include "Button.hpp"
+#include "LoadingBarFrame.hpp"
+#include "LoadingBar.hpp"
  
 
 class MainMenu
@@ -18,5 +22,8 @@ private:
 	sf::RenderWindow&		mWindow;
 	Background				mBackground;
 	sf::Sprite 				mGUI;
-	sf::Sprite				mLogo;
+	Logo					mLogo;
+	Button					mPlayButton;
+	Button					mOptionsButton;
+	LoadingBarFrame			mCurrentFileLoadingBarFrame;
 };

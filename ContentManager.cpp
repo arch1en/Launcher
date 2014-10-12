@@ -2,9 +2,11 @@
 
 ContentManager::ContentManager()
 {
-	loadTexture(Textures::GUI_BACKGROUND, "content/textures/black-brick-wall-18482.jpg");
-	loadTexture(Textures::GUI_SPRITESHEET, "content/textures/ADOM-OGA-UI-SmartObject.png");
-	loadTexture(Textures::GUI_LOGO, "content/textures/metin2_logo.png");
+	loadTexture(Textures::GUI_BACKGROUND, "D:/C++/VSWorkspace/Launcher/Launcher/content/textures/black-brick-wall-18482.jpg");
+	loadTexture(Textures::GUI_SPRITESHEET, "D:/C++/VSWorkspace/Launcher/Launcher/content/textures/ADOM-OGA-UI-SmartObject.png");
+	loadTexture(Textures::GUI_BUTTON, "D:/C++/VSWorkspace/Launcher/Launcher/content/textures/ADOM-OGA-BUTTON-SmartObject.png");
+	loadTexture(Textures::GUI_LOGO, "D:/C++/VSWorkspace/Launcher/Launcher/content/textures/metin2_logo.png");
+	loadFont(Fonts::MENU_CAROLINGIA, "D:/C++/VSWorkspace/Launcher/Launcher/content/fonts/CAROBTN_.TTF");
 }
 /////////////////////////////////////////
 /// \brief - loadTexture - loads texture asset from given path.

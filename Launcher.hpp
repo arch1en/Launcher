@@ -3,6 +3,7 @@
 #include <SFML/Graphics.hpp>
 #include "MainMenu.hpp"
 #include "ContentManager.hpp"
+#include "DebugConsole.hpp" 
 
 class Launcher
 {
@@ -21,4 +22,6 @@ private:
 	sf::Clock			mClock;
 	ContentManager		mContentManager;
 	MainMenu			mMainMenu;
+
+	DebugConsole		mDebugConsole;
 };
