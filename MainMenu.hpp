@@ -6,7 +6,6 @@
 #include "Logo.hpp"
 #include "Button.hpp"
 #include "LoadingBarFrame.hpp"
-#include "LoadingBar.hpp"
  
 
 class MainMenu
@@ -25,5 +24,6 @@ private:
 	Logo					mLogo;
 	Button					mPlayButton;
 	Button					mOptionsButton;
-	LoadingBarFrame			mCurrentFileLoadingBarFrame;
+	LoadingBarFrame			mCurrentFileLoadingBar;
+	LoadingBarFrame			mSummaryFileLoadingBar;
 };
